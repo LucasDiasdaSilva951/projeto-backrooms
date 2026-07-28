@@ -1,0 +1,234 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Vicious';
+    src: url(fontes/vicioushunger.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url(fontes/BebasNeue-Regular.otf) format('truetype');
+}
+:root {
+    --cor1: #1f1807; 
+    --cor2: #826E00;
+    --cor3: #4F4610;
+    --cor4: #020302ec;
+    --cor5: #383735;
+    --cor6: #5e5654;
+    --cor7: #979797;
+    --fonte-titulo: 'Vicious', 'cursive';
+    --fonte-subtitulo: 'Bebas', 'cursive';
+    --fonte-paragrafo: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--cor3);
+    padding: 0;
+    margin: 0;
+    text-shadow: 0.1px 0px 0 rgba(0, 0, 0, 0.329);
+    box-shadow: 2px 0 0 black;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+    width: auto;
+}
+header > h1 {
+    font: lighter 3em var(--fonte-titulo);
+    color: var(--cor7);
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+header > h1 > p {
+    color: white;
+    text-align: center;
+    display: inline;
+}
+header > p {
+    font-family: var(--fonte-paragrafo);
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.849);
+    text-align: center;
+    padding: 15px;
+}
+header > nav {
+    background-color: var(--cor4);
+    text-align: center;
+}
+header > nav > div > p {
+    word-spacing: 20px;
+    font: normal 1.5em var(--fonte-subtitulo);
+    color: rgb(250, 250, 250);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.280);
+    padding: auto;
+    padding-inline: 10px;
+    display: inline;
+    line-height: 50px;
+}
+header > nav > div > p:hover {
+    background-color: rgb(146, 126, 126);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+    color: var(--cor3);
+}
+main {
+    background-color: var(--cor2);
+    padding: 30px 40px 0 40px;
+    width: auto;
+    margin: auto;
+}
+main > h1 {
+    font: lighter 4em var(--fonte-titulo);
+    text-align: center;
+} 
+main > h2 {
+    font: lighter 4em var(--fonte-subtitulo);
+    text-align: center;
+    color:rgb(29, 20, 2);
+    padding: 15px 0 20px 0;
+}
+main > picture > img {
+    width: 100%;
+    height: 400px;
+    padding-bottom: 15px;
+}
+main > h3 {
+    font: lighter 2.01em var(--fonte-subtitulo);
+    padding: 15px 0 20px 0;
+    color: rgb(29, 20, 2);
+}
+main > h3#fig1::after{
+    content: '\📋';
+}
+main > h3#fig1::before{
+    content: '\📋';
+}
+main > h3#fig2::after {
+    content: '\🏠';
+}
+main > h3#fig2::before {
+    content: '\🏠';
+}
+main > h3#fig3::after {
+    content: '\👻';
+}
+main > h3#fig3::before {
+    content: '\👻';
+}
+main > h3#fig4::before {
+    content: '\1FA9C';
+}
+main > h3#fig4::after {
+    content: '\1FA9C';
+}
+main > h3#fig5::before {
+    content: '\1F310';
+}
+main > h3#fig5::after {
+    content: '\1F310';
+}
+main > h3#fig6::before {
+    content: '\2B50';
+}
+main > h3#fig6::after {
+    content: '\2B50';
+}
+main > h4 {
+    font: lighter 1.3em var(--fonte-subtitulo);
+}
+main > h5 {
+    font: lighter 1.2em var(--fonte-subtitulo);
+}
+main > p {
+    font-family: var(--fonte-paragrafo);
+    width: 100%;
+    line-height: 30px;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+main strong abbr {
+    text-decoration: none;
+}
+main strong abbr a {
+    color: var(--cor1);
+    text-decoration: none;
+}
+main strong abbr a:hover {
+    text-decoration: underline;
+    color: #421A0A;
+    background-color: rgb(104, 89, 89);
+}
+main strong::before {
+    content: '🚪';
+}
+main strong::after {
+    content: '🚪';
+}
+aside {
+    background-color: rgba(0, 0, 0, 0.884);
+    border-radius: 15px 0px 15px 0px;
+}
+aside > div {
+    padding: 15px 30px 25px 25px;
+}
+aside > div > h3 {
+    color: rgb(204, 168, 110);
+    font: 2.2em var(--fonte-subtitulo);
+    padding-bottom: 20px;
+}
+aside > div > ul {
+    padding: 0 20px 0 20px
+}
+aside > div > ul > li {
+    list-style-type: '\00A0\2705';
+    word-spacing: 2px;
+    padding: 15px 0 25px 15px;
+    font-family: var(--fonte-paragrafo);
+    color: white;
+    font-weight: bold;
+}
+aside > div > h4 {
+    font: 1.6em var(--fonte-subtitulo);
+    color: rgb(215, 219, 215);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+aside > div > picture > img {
+    width: 100%;
+    height: 400px;
+    padding-bottom: 20px;
+}
+aside > div > div > video {
+    padding: 15px 0 15px 0;
+    max-height: 500px;
+    min-height: 100px;
+}
+aside > div > p {
+    font-family: var(--fonte-paragrafo);
+    word-spacing: 3px;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+footer {
+    background-color: var(--cor3);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+footer > h1 {
+    font: lighter 2.5em var(--fonte-titulo);
+    color: var(--cor7);
+    padding: 8px 0 8px 15px;
+}
+footer > h1 > p {
+    color: white;
+    display: inline;
+}
+footer > p {
+    font: bold 2em var(--fonte-paragrafo);
+    padding: 0 0 10px 10px;
+    display: inline;
+}
