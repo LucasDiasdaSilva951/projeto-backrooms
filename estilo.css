@@ -221,12 +221,6 @@ footer > h1 {
     color: var(--cor7);
     padding: 8px 0 8px 15px;
 }
-footer > h1 > p {
-    color: white;
-    display: inline;
-}
-footer > p {
-    font: bold 1.5emvar(--fonte-paragrafo);
-    padding: 0 0 10px 10px;
-    display: inline;
+footer > a {
+    position: relative;
 }
