@@ -227,7 +227,7 @@ footer > h1 > p {
     display: inline;
 }
 footer > p {
-    font: bold 2em var(--fonte-paragrafo);
+    font: bold 1.5emvar(--fonte-paragrafo);
     padding: 0 0 10px 10px;
     display: inline;
 }
