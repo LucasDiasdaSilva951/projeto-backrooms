@@ -63,7 +63,7 @@ header > nav > div > p {
     color: rgb(250, 250, 250);
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.280);
     padding: auto;
-    padding-inline: 10px;
+    padding-inline: 5px;
     display: inline;
     line-height: 50px;
 }
