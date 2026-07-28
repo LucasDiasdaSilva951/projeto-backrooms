@@ -55,7 +55,6 @@ header > p {
 }
 header > nav {
     background-color: var(--cor4);
-    text-align: center;
 }
 header > nav > div > p {
     word-spacing: 10px;
